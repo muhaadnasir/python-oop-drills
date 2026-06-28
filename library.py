@@ -44,3 +44,6 @@ print(repr(b2))
 print(len(lib))
 print(str(lib))
 print("Diwani" in lib)
+
+for book in lib.books:
+    print(book)
